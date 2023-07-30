@@ -7,7 +7,7 @@ const router = Router()
  
 router.get('/registros',getRegistro)
  
-router.put('/registros',createRegistro)
+router.post('/registros',createRegistro)
  
 
 
