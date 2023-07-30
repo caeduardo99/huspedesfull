@@ -5,6 +5,6 @@
 # Backend
 - Node.js
 - Express.js
-MySQL
+- MySQL
 # Frontend
 - React
