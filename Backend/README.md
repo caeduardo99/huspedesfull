@@ -10,6 +10,7 @@ Este es el backend del proyecto de Registro de Huéspedes. El backend está desa
 ```bash
 npm install
 ```
+
 ## Variables de Entorno
 Este repositorio se utlizo variables de entorno para la conexion a mysql, crear un archivo .env
 ```bash
@@ -17,5 +18,15 @@ DB_HOST=localhost
 DB_USER=usuario
 DB_PORT=puerto
 DB_PASSWORD=tcontraseña
-DB_NAME=registro_huespedes
+DB_NAME=base
+```
+
+
+## Endpoints
+```bash
+GET /api/habitaciones: Obtiene la lista de habitaciones disponibles y ocupadas.
+GET /api/estados: Obtiene la lista de estados disponibles y ocupadas.
+GET&POST /api/registros: Registra un nuevo huésped y asigna una habitación disponible.
+PUT /api/habitaciones/:id: Actualiza el estado de una habitación.
+```
 
